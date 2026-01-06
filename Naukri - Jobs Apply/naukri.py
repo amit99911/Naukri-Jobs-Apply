@@ -297,6 +297,14 @@ def main():
             # Run a batch of 5
             applied_in_batch = apply_to_jobs_batch(driver, batch_size=5)
             total_applied += applied_in_batch
+
+                        # Choose job source: 'recommended' or 'inbox'
+            job_source = 'inbox'  # Change to 'recommended' for recommended jobs
+            
+            if job_source.lower() == 'inbox':
+                applied_in_batch = apply_to_inbox_jobs(driver, batch_size=5)
+            else:
+                applied_in_batch = apply_to_jobs_batch(driver, batch_size=5)
             
             if applied_in_batch == 0:
                 log_msg("No relevant jobs found in this pass. Sleeping for 5 mins before refresh...")
@@ -321,5 +329,66 @@ def main():
             driver.quit()
         log_msg("----- Script Ended -----")
 
+
+# --- INBOX JOBS APPLICATION LOGIC ---
+def apply_to_inbox_jobs(driver, batch_size=5):
+    """
+    Applies to jobs from inbox (NVites).
+    Returns number of jobs applied.
+    """
+    count = 0
+    driver.get("https://www.naukri.com/mnjuser/inbox")
+    time.sleep(5)
+    
+    log_msg("Scanning Inbox (NVites) Jobs...")
+    
+    # Get all apply buttons first
+    apply_buttons = []
+    try:
+        # Find all job items in the inbox
+        job_items = driver.find_elements(By.XPATH, "//div[contains(@id, 'nvite-item') or contains(@class, 'nvite')]")
+        log_msg(f"Found {len(job_items)} jobs in inbox.")
+        
+        # For each job item, check if there's an Apply button
+        for idx, item in enumerate(job_items):
+            if count >= batch_size:
+                break
+            
+            try:
+                log_msg(f"Processing Inbox Job {count + 1}/{batch_size}...")
+                
+                # Find apply button within this job item
+                apply_btn = item.find_element(By.XPATH, ".//button[contains(text(), 'Apply')]")
+                
+                # Check if already applied
+                if "Not interested" in item.text or "Applied" in item.text:
+                    log_msg(" -> Already Applied or Not Interested. Skipping.")
+                    continue
+                
+                if apply_btn and apply_btn.is_displayed():
+                    apply_btn.click()
+                    time.sleep(2)
+                    
+                    # Handle the application modal
+                    if handle_apply_modal(driver):
+                        log_msg(" -> SUCCESS: Applied via Inbox.")
+                        count += 1
+                    else:
+                        log_msg(" -> Failed/Skipped.")
+                        
+                    time.sleep(randint(2, 5))  # Human-like pause
+            except Exception as e:
+                log_msg(f" -> Error processing job: {e}")
+                continue
+                
+    except Exception as e:
+        catch(e)
+        return count
+    
+    return count
+
+
+
 if __name__ == "__main__":
+
     main()

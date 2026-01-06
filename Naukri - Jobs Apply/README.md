@@ -1,4 +1,4 @@
-# Daily Naukri Update
+# Naukri Inbox Jobs Apply
 [![license](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://github.com/navchandar/Naukri/blob/master/LICENSE) 
 [![Test](https://github.com/navchandar/Naukri/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/navchandar/Naukri/actions/workflows/main.yml)
 [![Code Climate](https://codeclimate.com/github/navchandar/Naukri.svg)](https://codeclimate.com/github/navchandar/Naukri)
@@ -116,5 +116,6 @@ By default, the script applies for jobs from the **Inbox**. To change this behav
 [Chrome Driver](https://chromedriver.chromium.org/downloads)
 
 [How to Use Task Scheduler](https://www.wikihow.com/Use-Task-Scheduler-(in-Vista))
+
 
 

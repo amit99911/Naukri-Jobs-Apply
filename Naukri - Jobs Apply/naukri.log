@@ -1,0 +1,538 @@
+2025-12-29 17:15:28,398    : -----Naukri.py Script Run Begin-----
+2025-12-29 17:15:31,050    : Google Chrome Launched!
+2025-12-29 17:15:33,903    : 
+2025-12-29 17:15:33,922    : Website Loaded Successfully.
+2025-12-29 17:15:52,687    : Element not found with XPATH : //*[contains(@class, 'cross-icon') or @alt='cross-icon']
+2025-12-29 17:15:57,734    : Element not found with XPATH : //*[text() = 'SKIP AND CONTINUE']
+2025-12-29 17:15:58,762    : Naukri Login Successful
+2025-12-29 17:16:11,350    : Element not found with XPATH : //*[contains(@class, 'crossIcon')]
+2025-12-29 17:16:22,717    : Element not found with XPATH : //*[@name='mobile'] | //*[@id='mob_number']
+2025-12-29 17:16:25,745    : Element not found with XPATH : //*[@name='mobile'] | //*[@id='mob_number']
+2025-12-29 17:16:26,873    : Profile Update Successful
+2025-12-29 17:16:44,961    : Element not found with XPATH : //*[contains(@class, 'crossIcon')]
+2025-12-29 17:16:52,404    : Element not found with ID : //button[@type='button']
+2025-12-29 17:16:53,506    : Resume Document Upload Successful. Last Updated date = Uploaded on Dec 29, 2025
+2025-12-29 17:16:56,700    : Drawer menu opened
+2025-12-29 17:16:59,360    : Logout Successful
+2025-12-29 17:17:02,930    : Driver Closed Successfully
+2025-12-29 17:17:05,251    : Driver Quit Successfully
+2025-12-29 17:17:05,252    : -----Naukri.py Script Run Ended-----
+
+2025-12-29 17:41:44,132    : -----Naukri.py Script Run Begin-----
+2025-12-29 17:41:46,213    : Google Chrome Launched!
+2025-12-29 17:41:49,074    : Jobseeker's Login: Search the Best Jobs available in India & Abroad - Naukri.com
+2025-12-29 17:41:49,083    : Website Loaded Successfully.
+2025-12-29 17:42:06,981    : Element not found with XPATH : //*[contains(@class, 'cross-icon') or @alt='cross-icon']
+2025-12-29 17:42:12,013    : Element not found with XPATH : //*[text() = 'SKIP AND CONTINUE']
+2025-12-29 17:42:13,082    : Naukri Login Successful
+2025-12-29 17:42:15,225    : <class 'selenium.common.exceptions.ElementClickInterceptedException'> : Message: element click intercepted: Element <a href="/mnjuser/profile">...</a> is not clickable at point (187, 304). Other element would receive the click: <div id="_ve47c06w62" class="chatbot_Overlay show"></div>
+  (Session info: chrome=143.0.7499.110); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7b34e88e5
+	0x7ff7b34e8940
+	0x7ff7b32c165d
+	0x7ff7b33219e8
+	0x7ff7b331f40f
+	0x7ff7b331c417
+	0x7ff7b331b338
+	0x7ff7b330ce7f
+	0x7ff7b3341fda
+	0x7ff7b330c746
+	0x7ff7b336ac97
+	0x7ff7b330ac29
+	0x7ff7b330ba93
+	0x7ff7b3800640
+	0x7ff7b37faf80
+	0x7ff7b38196e6
+	0x7ff7b3505de4
+	0x7ff7b350ed8c
+	0x7ff7b34f2004
+	0x7ff7b34f21b5
+	0x7ff7b34d7ee2
+	0x7ffa16e6e8d7
+	0x7ffa172cc53c
+ at Line 323.
+2025-12-29 17:42:28,441    : Element not found with XPATH : //*[contains(@class, 'crossIcon')]
+2025-12-29 17:42:35,851    : Element not found with ID : //button[@type='button']
+2025-12-29 17:42:36,886    : Resume Document Upload Successful. Last Updated date = Uploaded on Dec 29, 2025
+2025-12-29 17:42:39,985    : Drawer menu opened
+2025-12-29 17:42:42,598    : Logout Successful
+2025-12-29 17:42:45,983    : Driver Closed Successfully
+2025-12-29 17:42:48,238    : Driver Quit Successfully
+2025-12-29 17:42:48,238    : -----Naukri.py Script Run Ended-----
+
+2025-12-29 17:51:07,463    : -----Naukri.py Script Run Begin-----
+2025-12-29 17:51:10,944    : Google Chrome Launched!
+2025-12-29 17:51:13,778    : Jobseeker's Login: Search the Best Jobs available in India & Abroad - Naukri.com
+2025-12-29 17:51:13,797    : Website Loaded Successfully.
+2025-12-29 17:51:31,623    : Element not found with XPATH : //*[contains(@class, 'cross-icon') or @alt='cross-icon']
+2025-12-29 17:51:36,672    : Element not found with XPATH : //*[text() = 'SKIP AND CONTINUE']
+2025-12-29 17:51:37,717    : Naukri Login Successful
+2025-12-29 17:51:37,719    : Waiting for 335.38 seconds (random delay between 3-10 minutes)...
+2025-12-29 17:57:15,661    : <class 'selenium.common.exceptions.ElementClickInterceptedException'> : Message: element click intercepted: Element <a href="/mnjuser/profile">...</a> is not clickable at point (187, 304). Other element would receive the click: <div id="_apla2yspk2" class="chatbot_Overlay show"></div>
+  (Session info: chrome=143.0.7499.110); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff6769988e5
+	0x7ff676998940
+	0x7ff67677165d
+	0x7ff6767d19e8
+	0x7ff6767cf40f
+	0x7ff6767cc417
+	0x7ff6767cb338
+	0x7ff6767bce7f
+	0x7ff6767f1fda
+	0x7ff6767bc746
+	0x7ff67681ac97
+	0x7ff6767bac29
+	0x7ff6767bba93
+	0x7ff676cb0640
+	0x7ff676caaf80
+	0x7ff676cc96e6
+	0x7ff6769b5de4
+	0x7ff6769bed8c
+	0x7ff6769a2004
+	0x7ff6769a21b5
+	0x7ff676987ee2
+	0x7ffa16e6e8d7
+	0x7ffa172cc53c
+ at Line 323.
+2025-12-29 17:57:31,661    : Element not found with XPATH : //*[contains(@class, 'crossIcon')]
+2025-12-29 17:57:49,012    : Element not found with ID : //button[@type='button']
+2025-12-29 17:57:50,112    : Resume Document Upload Successful. Last Updated date = Uploaded on Dec 29, 2025
+2025-12-29 17:57:53,379    : Drawer menu opened
+2025-12-29 17:57:56,055    : Logout Successful
+2025-12-29 17:58:05,895    : Driver Closed Successfully
+2025-12-29 17:58:08,239    : Driver Quit Successfully
+2025-12-29 17:58:08,239    : -----Naukri.py Script Run Ended-----
+
+2025-12-29 18:17:59,857    : === Naukri Auto-Update Scheduler Started ===
+2025-12-29 18:17:59,858    : Script will run every 15 minutes
+2025-12-29 18:17:59,858    : Press Ctrl+C to stop the scheduler
+2025-12-29 18:17:59,858    : Running initial update...
+2025-12-29 18:17:59,859    : -----Naukri.py Script Run Begin-----
+2025-12-29 18:18:03,679    : Google Chrome Launched!
+2025-12-29 18:18:09,646    : Jobseeker's Login: Search the Best Jobs available in India & Abroad - Naukri.com
+2025-12-29 18:18:09,683    : Website Loaded Successfully.
+2025-12-29 18:18:28,206    : Element not found with XPATH : //*[contains(@class, 'cross-icon') or @alt='cross-icon']
+2025-12-29 18:18:33,355    : Element not found with XPATH : //*[text() = 'SKIP AND CONTINUE']
+2025-12-29 18:18:34,469    : Naukri Login Successful
+2025-12-29 18:18:34,478    : Waiting for 422.02 seconds (random delay between 3-10 minutes)...
+2025-12-29 18:25:52,280    : Element not found with XPATH : //*[contains(@class, 'crossIcon')]
+2025-12-29 18:26:03,857    : Element not found with XPATH : //*[@name='mobile'] | //*[@id='mob_number']
+2025-12-29 18:26:06,916    : Element not found with XPATH : //*[@name='mobile'] | //*[@id='mob_number']
+2025-12-29 18:26:08,167    : Profile Update Successful
+2025-12-29 18:26:27,406    : Element not found with XPATH : //*[contains(@class, 'crossIcon')]
+2025-12-29 18:26:35,039    : Element not found with ID : //button[@type='button']
+2025-12-29 18:26:36,142    : Resume Document Upload Successful. Last Updated date = Uploaded on Dec 29, 2025
+2025-12-29 18:26:39,419    : Drawer menu opened
+2025-12-29 18:26:42,217    : Logout Successful
+2025-12-29 18:26:46,199    : Driver Closed Successfully
+2025-12-29 18:26:49,215    : Driver Quit Successfully
+2025-12-29 18:26:49,216    : -----Naukri.py Script Run Ended-----
+
+2025-12-29 18:41:49,920    : -----Naukri.py Script Run Begin-----
+2025-12-29 18:41:58,217    : Google Chrome Launched!
+2025-12-29 18:42:08,000    : Jobseeker's Login: Search the Best Jobs available in India & Abroad - Naukri.com
+2025-12-29 18:42:08,025    : Website Loaded Successfully.
+2025-12-29 18:42:30,406    : Element not found with XPATH : //*[contains(@class, 'cross-icon') or @alt='cross-icon']
+2025-12-29 18:42:35,749    : Element not found with XPATH : //*[text() = 'SKIP AND CONTINUE']
+2025-12-29 18:42:36,936    : Naukri Login Successful
+2025-12-29 18:42:36,941    : Waiting for 459.57 seconds (random delay between 3-10 minutes)...
+2025-12-29 18:47:43,544    : === Scheduler stopped by user ===
+2025-12-29 18:50:19,711    : === Naukri Auto-Update Scheduler Started ===
+2025-12-29 18:50:19,712    : -----Naukri.py Script Run Begin-----
+2025-12-29 18:50:19,713    : Could not rotate Tor IP (Requires 'stem' library and configured Tor): No module named 'stem'
+2025-12-29 18:50:19,713    : Continuing with current IP...
+2025-12-29 18:50:22,501    : Google Chrome Launched with Proxy!
+2025-12-29 18:50:27,308    : <class 'selenium.common.exceptions.WebDriverException'> : Message: unknown error: net::ERR_PROXY_CONNECTION_FAILED
+  (Session info: chrome=143.0.7499.110)
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff626bf88e5
+	0x7ff626bf8940
+	0x7ff6269d165d
+	0x7ff6269ce1dd
+	0x7ff6269beb69
+	0x7ff6269c0974
+	0x7ff6269bf10f
+	0x7ff6269be871
+	0x7ff6269be5bd
+	0x7ff6269bc20a
+	0x7ff6269bc9f2
+	0x7ff6269d5950
+	0x7ff626a7bad4
+	0x7ff626a51fda
+	0x7ff626a7ac97
+	0x7ff626a1ac29
+	0x7ff626a1ba93
+	0x7ff626f10640
+	0x7ff626f0af80
+	0x7ff626f296e6
+	0x7ff626c15de4
+	0x7ff626c1ed8c
+	0x7ff626c02004
+	0x7ff626c021b5
+	0x7ff626be7ee2
+	0x7ffa16e6e8d7
+	0x7ffa172cc53c
+ at Line 256.
+2025-12-29 18:50:27,308    : -----Naukri.py Script Run Ended-----
+
+2025-12-29 18:50:27,309    : Sleeping for 15 minutes...
+2025-12-29 18:52:25,713    : === Naukri Auto-Update Scheduler Started ===
+2025-12-29 18:52:25,715    : Script will run every 15 minutes
+2025-12-29 18:52:25,715    : Press Ctrl+C to stop the scheduler
+2025-12-29 18:52:25,718    : Running initial update...
+2025-12-29 18:52:25,719    : -----Naukri.py Script Run Begin-----
+2025-12-29 18:52:28,839    : Google Chrome Launched!
+2025-12-29 18:52:32,463    : Jobseeker's Login: Search the Best Jobs available in India & Abroad - Naukri.com
+2025-12-29 18:52:32,900    : Website Loaded Successfully.
+2025-12-29 18:52:53,337    : Element not found with XPATH : //*[contains(@class, 'cross-icon') or @alt='cross-icon']
+2025-12-29 18:52:58,365    : Element not found with XPATH : //*[text() = 'SKIP AND CONTINUE']
+2025-12-29 18:52:59,400    : Naukri Login Successful
+2025-12-29 18:52:59,403    : Waiting for 538.66 seconds (random delay between 3-10 minutes)...
+2025-12-29 19:02:11,963    : Element not found with XPATH : //*[contains(@class, 'crossIcon')]
+2025-12-29 19:02:23,548    : Element not found with XPATH : //*[@name='mobile'] | //*[@id='mob_number']
+2025-12-29 19:02:26,625    : Element not found with XPATH : //*[@name='mobile'] | //*[@id='mob_number']
+2025-12-29 19:02:27,869    : Profile Update Successful
+2025-12-29 19:02:46,067    : Element not found with XPATH : //*[contains(@class, 'crossIcon')]
+2025-12-29 19:02:53,456    : Element not found with ID : //button[@type='button']
+2025-12-29 19:02:54,523    : Resume Document Upload Successful. Last Updated date = Uploaded on Dec 29, 2025
+2025-12-29 19:02:57,646    : Drawer menu opened
+2025-12-29 19:03:00,315    : Logout Successful
+2025-12-29 19:03:04,155    : Driver Closed Successfully
+2025-12-29 19:03:06,887    : Driver Quit Successfully
+2025-12-29 19:03:06,890    : -----Naukri.py Script Run Ended-----
+
+2025-12-29 19:12:36,132    : === Scheduler stopped by user ===
+2025-12-29 19:12:40,494    : === Naukri Auto-Update Scheduler Started ===
+2025-12-29 19:12:40,495    : Script will run every 15 minutes
+2025-12-29 19:12:40,495    : Press Ctrl+C to stop the scheduler
+2025-12-29 19:12:40,496    : Running initial update...
+2025-12-29 19:12:40,496    : -----Naukri.py Script Run Begin-----
+2025-12-29 19:12:40,496    : Launching CHROME...
+2025-12-29 19:12:42,654    : CHROME Launched (Private Mode)!
+2025-12-29 19:12:45,289    : Jobseeker's Login: Search the Best Jobs available in India & Abroad - Naukri.com
+2025-12-29 19:12:45,313    : Website Loaded Successfully.
+2025-12-29 19:13:03,291    : Element not found with XPATH : //*[contains(@class, 'cross-icon') or @alt='cross-icon']
+2025-12-29 19:13:08,421    : Element not found with XPATH : //*[text() = 'SKIP AND CONTINUE']
+2025-12-29 19:13:09,526    : Naukri Login Successful
+2025-12-29 19:13:09,532    : Waiting for 441.28 seconds (random delay between 3-10 minutes)...
+2025-12-29 19:20:52,224    : Element not found with XPATH : //*[contains(@class, 'crossIcon')]
+2025-12-29 19:21:04,065    : Element not found with XPATH : //*[@name='mobile'] | //*[@id='mob_number']
+2025-12-29 19:21:07,096    : Element not found with XPATH : //*[@name='mobile'] | //*[@id='mob_number']
+2025-12-29 19:21:08,654    : Profile Update Successful
+2025-12-29 19:21:27,578    : Element not found with XPATH : //*[contains(@class, 'crossIcon')]
+2025-12-29 19:21:36,054    : Element not found with ID : //button[@type='button']
+2025-12-29 19:21:37,270    : Resume Document Upload Successful. Last Updated date = Uploaded on Dec 29, 2025
+2025-12-29 19:21:40,762    : Drawer menu opened
+2025-12-29 19:21:49,003    : Logout Successful
+2025-12-29 19:21:53,030    : Driver Closed Successfully
+2025-12-29 19:21:56,710    : Driver Quit Successfully
+2025-12-29 19:21:56,711    : -----Naukri.py Script Run Ended-----
+
+2025-12-29 19:36:57,506    : -----Naukri.py Script Run Begin-----
+2025-12-29 19:36:57,527    : Launching EDGE...
+2025-12-29 19:37:10,505    : EDGE Launched (Private Mode)!
+2025-12-29 19:37:13,866    : Jobseeker's Login: Search the Best Jobs available in India & Abroad - Naukri.com
+2025-12-29 19:37:13,891    : Website Loaded Successfully.
+2025-12-29 19:37:33,739    : Element not found with XPATH : //*[contains(@class, 'cross-icon') or @alt='cross-icon']
+2025-12-29 19:37:38,969    : Element not found with XPATH : //*[text() = 'SKIP AND CONTINUE']
+2025-12-29 19:37:40,131    : Naukri Login Successful
+2025-12-29 19:37:40,141    : Waiting for 594.10 seconds (random delay between 3-10 minutes)...
+2025-12-29 19:47:52,058    : Element not found with XPATH : //*[contains(@class, 'crossIcon')]
+2025-12-29 19:48:04,148    : Element not found with XPATH : //*[@name='mobile'] | //*[@id='mob_number']
+2025-12-29 19:48:07,225    : Element not found with XPATH : //*[@name='mobile'] | //*[@id='mob_number']
+2025-12-29 19:48:11,382    : Profile Update Successful
+2025-12-29 19:48:31,117    : Element not found with XPATH : //*[contains(@class, 'crossIcon')]
+2025-12-29 19:48:38,772    : Element not found with ID : //button[@type='button']
+2025-12-29 19:48:39,835    : Resume Document Upload Successful. Last Updated date = Uploaded on Dec 29, 2025
+2025-12-29 19:48:43,606    : Drawer menu opened
+2025-12-29 19:48:46,496    : Logout Successful
+2025-12-29 19:48:53,871    : Driver Closed Successfully
+2025-12-29 19:48:56,134    : Driver Quit Successfully
+2025-12-29 19:48:56,135    : -----Naukri.py Script Run Ended-----
+
+2025-12-29 20:03:56,796    : -----Naukri.py Script Run Begin-----
+2025-12-29 20:03:56,809    : Launching CHROME...
+2025-12-29 20:04:00,842    : CHROME Launched (Private Mode)!
+2025-12-29 20:04:04,933    : Jobseeker's Login: Search the Best Jobs available in India & Abroad - Naukri.com
+2025-12-29 20:04:04,943    : Website Loaded Successfully.
+2025-12-29 20:04:23,650    : Element not found with XPATH : //*[contains(@class, 'cross-icon') or @alt='cross-icon']
+2025-12-29 20:04:28,784    : Element not found with XPATH : //*[text() = 'SKIP AND CONTINUE']
+2025-12-29 20:04:29,917    : Naukri Login Successful
+2025-12-29 20:04:29,927    : Waiting for 521.89 seconds (random delay between 3-10 minutes)...
+2025-12-29 20:12:43,599    : Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=59750): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/40e1e9ca715cc7175a16d1c2e21ddfcc/element
+2025-12-29 20:12:45,638    : === Scheduler stopped by user ===
+2025-12-30 16:37:59,149    : === Naukri Auto-Update Scheduler Started ===
+2025-12-30 16:37:59,151    : Script will run every 15 minutes
+2025-12-30 16:37:59,151    : Press Ctrl+C to stop the scheduler
+2025-12-30 16:37:59,151    : Running initial update...
+2025-12-30 16:37:59,152    : -----Naukri.py Script Run Begin-----
+2025-12-30 16:37:59,152    : Launching EDGE...
+2025-12-30 16:38:05,768    : EDGE Launched (Private Mode)!
+2025-12-30 16:38:09,885    : Jobseeker's Login: Search the Best Jobs available in India & Abroad - Naukri.com
+2025-12-30 16:38:09,913    : Website Loaded Successfully.
+2025-12-30 16:38:29,693    : Element not found with XPATH : //*[contains(@class, 'cross-icon') or @alt='cross-icon']
+2025-12-30 16:38:34,923    : Element not found with XPATH : //*[text() = 'SKIP AND CONTINUE']
+2025-12-30 16:38:35,948    : Naukri Login Successful
+2025-12-30 16:38:35,950    : Waiting for 252.46 seconds (random delay between 3-10 minutes)...
+2025-12-30 16:43:02,119    : Element not found with XPATH : //*[contains(@class, 'crossIcon')]
+2025-12-30 16:43:13,376    : Element not found with XPATH : //*[@name='mobile'] | //*[@id='mob_number']
+2025-12-30 16:43:16,432    : Element not found with XPATH : //*[@name='mobile'] | //*[@id='mob_number']
+2025-12-30 16:43:17,643    : Profile Update Successful
+2025-12-30 16:43:35,992    : Element not found with XPATH : //*[contains(@class, 'crossIcon')]
+2025-12-30 16:43:43,533    : Element not found with ID : //button[@type='button']
+2025-12-30 16:43:44,577    : Resume Document Upload Successful. Last Updated date = Uploaded on Dec 30, 2025
+2025-12-30 16:43:47,763    : Drawer menu opened
+2025-12-30 16:43:50,434    : Logout Successful
+2025-12-30 16:44:03,889    : Driver Closed Successfully
+2025-12-30 16:44:06,162    : Driver Quit Successfully
+2025-12-30 16:44:06,163    : -----Naukri.py Script Run Ended-----
+
+2025-12-30 16:59:06,674    : -----Naukri.py Script Run Begin-----
+2025-12-30 16:59:06,687    : Launching CHROME...
+2025-12-30 16:59:10,151    : CHROME Launched (Private Mode)!
+2025-12-30 16:59:14,143    : Jobseeker's Login: Search the Best Jobs available in India & Abroad - Naukri.com
+2025-12-30 16:59:14,162    : Website Loaded Successfully.
+2025-12-30 16:59:31,965    : Element not found with XPATH : //*[contains(@class, 'cross-icon') or @alt='cross-icon']
+2025-12-30 16:59:37,007    : Element not found with XPATH : //*[text() = 'SKIP AND CONTINUE']
+2025-12-30 16:59:38,037    : Naukri Login Successful
+2025-12-30 16:59:38,039    : Waiting for 282.95 seconds (random delay between 3-10 minutes)...
+2025-12-30 17:04:34,465    : Element not found with XPATH : //*[contains(@class, 'crossIcon')]
+2025-12-30 17:04:45,680    : Element not found with XPATH : //*[@name='mobile'] | //*[@id='mob_number']
+2025-12-30 17:04:48,745    : Element not found with XPATH : //*[@name='mobile'] | //*[@id='mob_number']
+2025-12-30 17:04:49,903    : Profile Update Successful
+2025-12-30 17:05:07,886    : Element not found with XPATH : //*[contains(@class, 'crossIcon')]
+2025-12-30 17:05:15,243    : Element not found with ID : //button[@type='button']
+2025-12-30 17:05:16,280    : Resume Document Upload Successful. Last Updated date = Uploaded on Dec 30, 2025
+2025-12-30 17:05:19,400    : Drawer menu opened
+2025-12-30 17:05:21,973    : Logout Successful
+2025-12-30 17:05:26,164    : Driver Closed Successfully
+2025-12-30 17:05:28,392    : Driver Quit Successfully
+2025-12-30 17:05:28,393    : -----Naukri.py Script Run Ended-----
+
+2025-12-30 17:20:28,916    : -----Naukri.py Script Run Begin-----
+2025-12-30 17:20:28,925    : Launching CHROME...
+2025-12-30 17:20:31,453    : CHROME Launched (Private Mode)!
+2025-12-30 17:20:33,575    : Jobseeker's Login: Search the Best Jobs available in India & Abroad - Naukri.com
+2025-12-30 17:20:33,594    : Website Loaded Successfully.
+2025-12-30 17:20:51,556    : Element not found with XPATH : //*[contains(@class, 'cross-icon') or @alt='cross-icon']
+2025-12-30 17:20:56,618    : Element not found with XPATH : //*[text() = 'SKIP AND CONTINUE']
+2025-12-30 17:20:57,655    : Naukri Login Successful
+2025-12-30 17:20:57,658    : Waiting for 578.16 seconds (random delay between 3-10 minutes)...
+2025-12-30 17:30:48,181    : Element not found with XPATH : //*[contains(@class, 'crossIcon')]
+2025-12-30 17:30:59,425    : Element not found with XPATH : //*[@name='mobile'] | //*[@id='mob_number']
+2025-12-30 17:31:02,455    : Element not found with XPATH : //*[@name='mobile'] | //*[@id='mob_number']
+2025-12-30 17:31:03,688    : Profile Update Successful
+2025-12-30 17:31:21,641    : Element not found with XPATH : //*[contains(@class, 'crossIcon')]
+2025-12-30 17:31:29,006    : Element not found with ID : //button[@type='button']
+2025-12-30 17:31:30,083    : Resume Document Upload Successful. Last Updated date = Uploaded on Dec 30, 2025
+2025-12-30 17:31:33,201    : Drawer menu opened
+2025-12-30 17:31:35,848    : Logout Successful
+2025-12-30 17:31:38,514    : Driver Closed Successfully
+2025-12-30 17:31:40,776    : Driver Quit Successfully
+2025-12-30 17:31:40,777    : -----Naukri.py Script Run Ended-----
+
+2025-12-30 17:46:41,281    : -----Naukri.py Script Run Begin-----
+2025-12-30 17:46:41,291    : Launching CHROME...
+2025-12-30 17:46:43,812    : CHROME Launched (Private Mode)!
+2025-12-30 17:46:45,142    : Jobseeker's Login: Search the Best Jobs available in India & Abroad - Naukri.com
+2025-12-30 17:46:45,339    : Website Loaded Successfully.
+2025-12-30 17:47:04,054    : Element not found with XPATH : //*[contains(@class, 'cross-icon') or @alt='cross-icon']
+2025-12-30 17:47:09,108    : Element not found with XPATH : //*[text() = 'SKIP AND CONTINUE']
+2025-12-30 17:47:10,155    : Naukri Login Successful
+2025-12-30 17:47:10,166    : Waiting for 268.44 seconds (random delay between 3-10 minutes)...
+2025-12-30 17:51:51,542    : Element not found with XPATH : //*[contains(@class, 'crossIcon')]
+2025-12-30 17:52:02,805    : Element not found with XPATH : //*[@name='mobile'] | //*[@id='mob_number']
+2025-12-30 17:52:05,843    : Element not found with XPATH : //*[@name='mobile'] | //*[@id='mob_number']
+2025-12-30 17:52:07,007    : Profile Update Successful
+2025-12-30 17:52:24,992    : Element not found with XPATH : //*[contains(@class, 'crossIcon')]
+2025-12-30 17:52:32,352    : Element not found with ID : //button[@type='button']
+2025-12-30 17:52:33,436    : Resume Document Upload Successful. Last Updated date = Uploaded on Dec 30, 2025
+2025-12-30 17:52:36,559    : Drawer menu opened
+2025-12-30 17:52:39,161    : Logout Successful
+2025-12-30 17:52:42,759    : Driver Closed Successfully
+2025-12-30 17:52:44,877    : Driver Quit Successfully
+2025-12-30 17:52:44,878    : -----Naukri.py Script Run Ended-----
+
+2025-12-30 18:07:45,439    : -----Naukri.py Script Run Begin-----
+2025-12-30 18:07:45,449    : Launching CHROME...
+2025-12-30 18:07:49,354    : CHROME Launched (Private Mode)!
+2025-12-30 18:07:51,932    : Jobseeker's Login: Search the Best Jobs available in India & Abroad - Naukri.com
+2025-12-30 18:07:51,951    : Website Loaded Successfully.
+2025-12-30 18:08:09,792    : Element not found with XPATH : //*[contains(@class, 'cross-icon') or @alt='cross-icon']
+2025-12-30 18:08:14,852    : Element not found with XPATH : //*[text() = 'SKIP AND CONTINUE']
+2025-12-30 18:08:15,908    : Naukri Login Successful
+2025-12-30 18:08:15,909    : Waiting for 446.11 seconds (random delay between 3-10 minutes)...
+2025-12-30 18:15:54,899    : Element not found with XPATH : //*[contains(@class, 'crossIcon')]
+2025-12-30 18:16:06,097    : Element not found with XPATH : //*[@name='mobile'] | //*[@id='mob_number']
+2025-12-30 18:16:09,150    : Element not found with XPATH : //*[@name='mobile'] | //*[@id='mob_number']
+2025-12-30 18:16:10,282    : Profile Update Successful
+2025-12-30 18:16:28,287    : Element not found with XPATH : //*[contains(@class, 'crossIcon')]
+2025-12-30 18:16:35,608    : Element not found with ID : //button[@type='button']
+2025-12-30 18:16:36,667    : Resume Document Upload Successful. Last Updated date = Uploaded on Dec 30, 2025
+2025-12-30 18:16:39,781    : Drawer menu opened
+2025-12-30 18:16:42,390    : Logout Successful
+2025-12-30 18:16:45,175    : Driver Closed Successfully
+2025-12-30 18:16:47,266    : Driver Quit Successfully
+2025-12-30 18:16:47,267    : -----Naukri.py Script Run Ended-----
+
+2025-12-30 18:31:47,790    : -----Naukri.py Script Run Begin-----
+2025-12-30 18:31:47,796    : Launching EDGE...
+2025-12-30 18:31:50,312    : EDGE Launched (Private Mode)!
+2025-12-30 18:31:52,304    : Jobseeker's Login: Search the Best Jobs available in India & Abroad - Naukri.com
+2025-12-30 18:31:52,320    : Website Loaded Successfully.
+2025-12-30 18:32:10,276    : Element not found with XPATH : //*[contains(@class, 'cross-icon') or @alt='cross-icon']
+2025-12-30 18:32:15,328    : Element not found with XPATH : //*[text() = 'SKIP AND CONTINUE']
+2025-12-30 18:32:16,366    : Naukri Login Successful
+2025-12-30 18:32:16,367    : Waiting for 260.43 seconds (random delay between 3-10 minutes)...
+2025-12-30 18:36:49,388    : Element not found with XPATH : //*[contains(@class, 'crossIcon')]
+2025-12-30 18:37:00,683    : Element not found with XPATH : //*[@name='mobile'] | //*[@id='mob_number']
+2025-12-30 18:37:03,752    : Element not found with XPATH : //*[@name='mobile'] | //*[@id='mob_number']
+2025-12-30 18:37:04,925    : Profile Update Successful
+2025-12-30 18:37:22,886    : Element not found with XPATH : //*[contains(@class, 'crossIcon')]
+2025-12-30 18:37:30,215    : Element not found with ID : //button[@type='button']
+2025-12-30 18:37:31,293    : Resume Document Upload Successful. Last Updated date = Uploaded on Dec 30, 2025
+2025-12-30 18:37:34,498    : Drawer menu opened
+2025-12-30 18:37:37,138    : Logout Successful
+2025-12-30 18:37:39,463    : Driver Closed Successfully
+2025-12-30 18:37:41,913    : Driver Quit Successfully
+2025-12-30 18:37:41,914    : -----Naukri.py Script Run Ended-----
+
+2025-12-30 18:52:42,455    : -----Naukri.py Script Run Begin-----
+2025-12-30 18:52:42,462    : Launching EDGE...
+2025-12-30 18:52:45,302    : EDGE Launched (Private Mode)!
+2025-12-30 18:52:48,007    : Jobseeker's Login: Search the Best Jobs available in India & Abroad - Naukri.com
+2025-12-30 18:52:48,030    : Website Loaded Successfully.
+2025-12-30 18:53:05,984    : Element not found with XPATH : //*[contains(@class, 'cross-icon') or @alt='cross-icon']
+2025-12-30 18:53:11,055    : Element not found with XPATH : //*[text() = 'SKIP AND CONTINUE']
+2025-12-30 18:53:12,093    : Naukri Login Successful
+2025-12-30 18:53:12,096    : Waiting for 581.48 seconds (random delay between 3-10 minutes)...
+2025-12-30 19:01:25,487    : === Scheduler stopped by user ===
+2025-12-31 09:08:35,007    : === Naukri Auto-Update Scheduler Started ===
+2025-12-31 09:08:35,008    : Script will run every 15 minutes
+2025-12-31 09:08:35,009    : Press Ctrl+C to stop the scheduler
+2025-12-31 09:08:35,009    : Running initial update...
+2025-12-31 09:08:35,009    : -----Naukri.py Script Run Begin-----
+2025-12-31 09:08:35,009    : Launching CHROME...
+2025-12-31 09:08:39,224    : CHROME Launched (Private Mode)!
+2025-12-31 09:08:43,209    : Jobseeker's Login: Search the Best Jobs available in India & Abroad - Naukri.com
+2025-12-31 09:08:43,221    : Website Loaded Successfully.
+2025-12-31 09:09:01,156    : Element not found with XPATH : //*[contains(@class, 'cross-icon') or @alt='cross-icon']
+2025-12-31 09:09:06,222    : Element not found with XPATH : //*[text() = 'SKIP AND CONTINUE']
+2025-12-31 09:09:07,353    : Naukri Login Successful
+2025-12-31 09:09:07,355    : Waiting for 459.78 seconds (random delay between 3-10 minutes)...
+2025-12-31 09:17:00,131    : Element not found with XPATH : //*[contains(@class, 'crossIcon')]
+2025-12-31 09:17:11,433    : Element not found with XPATH : //*[@name='mobile'] | //*[@id='mob_number']
+2025-12-31 09:17:14,455    : Element not found with XPATH : //*[@name='mobile'] | //*[@id='mob_number']
+2025-12-31 09:17:15,593    : Profile Update Successful
+2025-12-31 09:17:20,600    : Resume not found at C:/Users/amit.sinha.ext_littl/Downloads/Amit Sinha_Project Manager_12 Years_Nasdaq 
+2025-12-31 09:17:21,727    : Drawer menu opened
+2025-12-31 09:17:24,320    : Logout Successful
+2025-12-31 09:17:27,817    : Driver Closed Successfully
+2025-12-31 09:17:30,013    : Driver Quit Successfully
+2025-12-31 09:17:30,019    : -----Naukri.py Script Run Ended-----
+
+2025-12-31 09:32:30,767    : -----Naukri.py Script Run Begin-----
+2025-12-31 09:32:30,776    : Launching CHROME...
+2025-12-31 09:32:33,813    : CHROME Launched (Private Mode)!
+2025-12-31 09:32:36,196    : Jobseeker's Login: Search the Best Jobs available in India & Abroad - Naukri.com
+2025-12-31 09:32:36,210    : Website Loaded Successfully.
+2025-12-31 09:32:54,202    : Element not found with XPATH : //*[contains(@class, 'cross-icon') or @alt='cross-icon']
+2025-12-31 09:32:59,261    : Element not found with XPATH : //*[text() = 'SKIP AND CONTINUE']
+2025-12-31 09:33:00,337    : Naukri Login Successful
+2025-12-31 09:33:00,339    : Waiting for 595.26 seconds (random delay between 3-10 minutes)...
+2025-12-31 09:43:10,684    : Element not found with XPATH : //*[contains(@class, 'crossIcon')]
+2025-12-31 09:43:22,794    : Element not found with XPATH : //*[@name='mobile'] | //*[@id='mob_number']
+2025-12-31 09:43:25,841    : Element not found with XPATH : //*[@name='mobile'] | //*[@id='mob_number']
+2025-12-31 09:43:27,173    : Profile Update Successful
+2025-12-31 09:43:32,180    : Resume not found at C:/Users/amit.sinha.ext_littl/Downloads/Amit Sinha_Project Manager_12 Years_Nasdaq 
+2025-12-31 09:43:33,444    : Drawer open failed (//*[contains(translate(@class,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), 'drawer__icon')]): Message: element click intercepted: Element <div class="nI-gNb-drawer__icon">...</div> is not clickable at point (1145, 37). Other element would receive the click: <div class="ltLayer close" style="z-index: 1002;"></div>
+  (Session info: chrome=143.0.7499.110); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7a0ab88e5
+	0x7ff7a0ab8940
+	0x7ff7a089165d
+	0x7ff7a08f19e8
+	0x7ff7a08ef40f
+	0x7ff7a08ec417
+	0x7ff7a08eb338
+	0x7ff7a08dce7f
+	0x7ff7a0911fda
+	0x7ff7a08dc746
+	0x7ff7a093ac97
+	0x7ff7a08dac29
+	0x7ff7a08dba93
+	0x7ff7a0dd0640
+	0x7ff7a0dcaf80
+	0x7ff7a0de96e6
+	0x7ff7a0ad5de4
+	0x7ff7a0aded8c
+	0x7ff7a0ac2004
+	0x7ff7a0ac21b5
+	0x7ff7a0aa7ee2
+	0x7ffa16e6e8d7
+	0x7ffa172cc53c
+
+2025-12-31 09:43:34,618    : Drawer open failed (//div[contains(translate(@class,'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), 'drawer')]): Message: element click intercepted: Element <div class="nI-gNb-drawer">...</div> is not clickable at point (1145, 37). Other element would receive the click: <div class="ltLayer close" style="z-index: 1002;"></div>
+  (Session info: chrome=143.0.7499.110); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7a0ab88e5
+	0x7ff7a0ab8940
+	0x7ff7a089165d
+	0x7ff7a08f19e8
+	0x7ff7a08ef40f
+	0x7ff7a08ec417
+	0x7ff7a08eb338
+	0x7ff7a08dce7f
+	0x7ff7a0911fda
+	0x7ff7a08dc746
+	0x7ff7a093ac97
+	0x7ff7a08dac29
+	0x7ff7a08dba93
+	0x7ff7a0dd0640
+	0x7ff7a0dcaf80
+	0x7ff7a0de96e6
+	0x7ff7a0ad5de4
+	0x7ff7a0aded8c
+	0x7ff7a0ac2004
+	0x7ff7a0ac21b5
+	0x7ff7a0aa7ee2
+	0x7ffa16e6e8d7
+	0x7ffa172cc53c
+
+2025-12-31 09:43:50,509    : Logout click failed (//*[contains(translate(text(),'ABCDEFGHIJKLMNOPQRSTUVWXYZ','abcdefghijklmnopqrstuvwxyz'), 'logout')]): Message: element not interactable
+  (Session info: chrome=143.0.7499.110); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7a0ab88e5
+	0x7ff7a0ab8940
+	0x7ff7a0891465
+	0x7ff7a08eaf66
+	0x7ff7a08dce7f
+	0x7ff7a0911fda
+	0x7ff7a08dc746
+	0x7ff7a093ac97
+	0x7ff7a08dac29
+	0x7ff7a08dba93
+	0x7ff7a0dd0640
+	0x7ff7a0dcaf80
+	0x7ff7a0de96e6
+	0x7ff7a0ad5de4
+	0x7ff7a0aded8c
+	0x7ff7a0ac2004
+	0x7ff7a0ac21b5
+	0x7ff7a0aa7ee2
+	0x7ffa16e6e8d7
+	0x7ffa172cc53c
+
+2025-12-31 09:43:53,423    : Logout Successful
+2025-12-31 09:43:58,856    : Driver Closed Successfully
+2025-12-31 09:44:01,493    : Driver Quit Successfully
+2025-12-31 09:44:01,494    : -----Naukri.py Script Run Ended-----
+

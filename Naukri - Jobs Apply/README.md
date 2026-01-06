@@ -10,6 +10,7 @@
 This script automates information updates on the job portal "Naukri". Most recruiters may filter users with the most recent updates on their profile.
 
 Use this script to update your Naukri Profile on schedule every day; this can be completed in seconds.
+Now you can also apply for jobs directly from your Naukri Inbox (NVites)!
 
 In order to use this, you need Git, Python 3, and Google Chrome on your machine.
 
@@ -72,6 +73,38 @@ Ensure compliance with Naukri.com’s terms of service. The script does not stor
 [![Ko-Fi Badge](https://img.shields.io/badge/-Buy%20a%20KoFi-ff5f5f?style=flat-square&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAOiSURBVFhH7ZbLTxRBEMb963gkJIRleS4JyyJnDnqFKA%2BREOXAgcAJhAMEL77xoBdEjSQY8II3wchrgQUUdmZnusqvpofZzfDoBdF4mM2XSae3u%2BrXVdU1c4NLSv4rRUAmRUAmRUAmRUAmRUAmRUAmRUAmRUAmGYBo9jVlLfp1REfHfyjOZGjxM93v59JSMa6fp2QC2ssQMTkuuerqyjmQchTr38ICJZrE%2FllMBiB3M02KtEVflp0f2LmLJrUcV2PIwRBsy5bx2ndqTIR8aRmA1JYPpGDXdhxFsJdTFAzYsl1XhSftHNZrGkFc%2BUrLX2g7LSiYPM7K4NMCl5eH3EEmoO0dDQQf8Ef7BzwzQ733qKuLp6Zodw8EqDB%2B8pR6eqi7myYmaGs7h2joOGHLwSE3NIi1eJwnJ1l5GbRzwtTdU%2BhLqzggnNh16fAnd3aqqipqaBBVx%2BjWbZqb47t3KBaj%2BnqZxKC9nTY2XThGbLAXuxL57NDMY0FBkIjow8dgPlBxQFnLgplXs1RdrVpvcipFLS2EZ1OTcCQSMsYM1NaGNfxoAuuxC1R5ICQIVdzcLJcOBQCg9Y1CX1rFAVkWskAjI1RXCxpOJhUE00kPApJx0hcQe3sdrEeEcMUCIH2nYjG1uS0Fjr929wJHgS4RIRobo5oaam3V7uWsAYeewSCVUnV1PDCA0g6n7NojxEtLUiU6JJojJDhD%2FAD95u0ZKfN0TTWEK2PnbAxGR1G2ChVTGJ6ABsHDVerry7cibCm4ZTRxXbfMu%2FbSWrIWP3ioauJ%2BkAImTVNbSx0dlMlIg9BMf6sPedbBhB7IjkNDQ1wTVwFTczODBplCHzo89LrlCY33hHshgJ3jrBwJ49U1bmwM%2BdIyAZ10atiVCHlxkh4zOqpA4DEhg6gb7u%2Fn4ywuF3q3rNTSWLAAkQZjXlzkpqu%2By%2FJAiJD%2FApHTSz2Nj0v9trSAjAcHJX5K5Wm8Lf5gd492dunHOs2%2Fp55en%2BMsGqjYGgp85Jlw1ulpac3DwxI2ZPOEBuh6sezN7EvrQresrMxbPocGMgDRt1W5n8GtKYgTnlK8y8soW0mirvrC2GAXFmxucUWFbxAcZWWB8TNlAGLkBT%2FLCoBCQpyEww7Pi3T9PnsudkwcgUxAFRX0bl7sotPDsf7gKhQcn573ZuQkKytS77Bzfo5CMgFBCPj0NKfTwcdoUcKn5ouXPs1lVATQv1UEZFIEZFIEZFIEZFIEdLFKSn4Dz0s70NgRCBAAAAAASUVORK5CYII%3D&logoColor=1fb3ef&link=https://ko-fi.com/navchandar//)](https://ko-fi.com/navchandar/) 
 [![BuymeCoffee Badge](https://img.shields.io/badge/-Buy%20a%20Coffee-ff813f?style=flat-square&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAP5SURBVFhH7ZdrTFNnGMfftvSUXmTcBtNCWy6mXBRoAZWL1GAgIRnSiGOZkmF0W3YpJEYXtIm3qPEWP%2BgHRRogQLgmEmPiEpOZGBSX%2BAUZLES3%2Bc0PRiMJX5a5ubPnlCMxT9tznrcDYxae%2FD6c0vP%2Bn185p%2B95ysTjnveKFSE1VoTU%2BF8Ina3NIjL4ST5aqwq30K3PCxzpViLVztVouSrcQk1FaSK59Hr93b0ulKAMn9Bs6wboIXcjVGlJcYt7DQpRhiRUk5UAVGfEGwTw4a7sZPNCQkNOMkoOhSQUo9OWlZXV%2FIdqbm622WwNeakoORSqUFdXl3wZoq3GxsalFBIEvdEYC5gAkxEwA2bTIpa3juGthXOAhVWAwSAsmdD%2B8rRUi%2FChWV%2FsENz5zJXHioBcVpjLCnJYgZOtfwO8LARypXfhHDjZ7WDF6UyjYVszEyAHJYdCEgJ2FaRAonh6o%2Fg74yPAnhxhULd3F6LMsFCFTlQ7rHEG6fhRSEsFppl4kf3wtST09EDZ24GRoApNf1cCoT996RJvWXBXBX6UhL4qZ5vSLSgwElShv45WgVCP1yneiMddFbgmCXmyNLtdH6HASFCFAGeyqb0yXey14a4KjEhCKas0Z2oyUVokOIRgn5W2Wq77OsCen5JuoOufUR%2F7JKHLH6%2B1J1kSLUZTrAEO7FaBSrKwOkGAsiaY7fGxKDYsJKHxPUXwKdva2k5EWy6Xy5OdgmLDQhKaO1QBQqOjo%2FJTgL%2Fchet9G60oNizUe2ibM8nr9crxnDUzMwOfZ%2BIL0mBEFfJX2bIz7HIHzhoaGgKheX8lygwLVWhoR64UOj8vN%2BEpv9%2BfnRqPAiNBFZoJ7tQTExNyE56qr6%2F35i%2FDxijE6Do6OuQmPJVhSzvssaO0SHAIua0f%2BHw%2BuQm55ubmpG9oUx5KiwSHUEtRqmdzpdyHXOPj4yA021qK0iLBIQS%2FyCC6s7MTNqTh4eGBgYG%2Bvr6enh6YbuGPcDUDgUB3d3dvb29%2Ff%2F%2Fg4ODIyMjY2FhdXd0GexKKUoBDCAYaEEKl1Wr0MRqDQWuM1QmCVqfTwHCIao%2BbekcDHELAy4MV%2FdtzwOzPB9q%2FH7N%2Ffgt5mgZ5%2FSt7dZ%2F9cYElGnWwy79oL0c5CvAJAb%2F4SqU9V3VMC45m5bZVaLkq3EKvj1V1NRDGtOBoxnWxFuAWAr6vIIxpwdHsXC11LlskGqF6Z5L6mBZgz06yGzvXobWqRCMEX5xXR6rESS2WWGRS%2Bvdc%2FTSqcPSaAgj9%2FG2JeE%2FAHovckYT2bXmHQudrM6eumKZusvBcYlPtrDLzXQmlxRmk%2FY5QaCGFaNY8%2FKaYCFpIIRqhZWVFSI0VIWWOe%2F4FR6A6eCoawHAAAAAASUVORK5CYII%3D&logoColor=white&link=https://www.buymeacoffee.com/navchandar//)](https://www.buymeacoffee.com/navchandar/) 
 
+
+### Apply from Inbox (NVites) - New Feature
+
+The script now supports applying for jobs directly from your Naukri Inbox (NVites section). This is useful for jobs where recruiters have specifically selected you to apply.
+
+#### How to Use
+
+By default, the script applies for jobs from the **Inbox**. To change this behavior:
+
+1. Open `naukri.py`
+2. In the `main()` function (around line 302), find this line:
+   ```python
+   job_source = 'inbox'  # Change to 'recommended' for recommended jobs
+   ```
+3. Change `'inbox'` to `'recommended'` to apply for recommended jobs instead
+4. Run the script as usual:
+   ```
+   python naukri.py
+   ```
+
+**Default behavior**: The script applies for jobs from your Naukri Inbox (https://www.naukri.com/mnjuser/inbox)
+
+#### Features
+
+- Automatically scans your Naukri Inbox for new NVite job invitations
+- Applies to jobs directly post-login
+- Handles application modals and custom questions intelligently
+- Respects job application state (skips already applied jobs)
+- Implements human-like pauses between applications
+- Fully compatible with profile update functionality
+
+
 ## Reference Links
 
 [Python 3+](https://www.python.org/downloads/)
@@ -83,4 +116,5 @@ Ensure compliance with Naukri.com’s terms of service. The script does not stor
 [Chrome Driver](https://chromedriver.chromium.org/downloads)
 
 [How to Use Task Scheduler](https://www.wikihow.com/Use-Task-Scheduler-(in-Vista))
+
 
